@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="new.css">
+    <script src="https://kit.fontawesome.com/1b81d314e0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+<div class="main-container">
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/pxfuel.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark close-icon" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars open-icon" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><span class="b1">D</span>ESIGNER | <span class="b2">A</span>RTIST | <span class="b3">C</span>YBER SECURITY UNDERGRADUATE</p>
+            <h1><span class="c1"></span><p>It's me<span class="c2"><br>Nadil Kularathne</span></p></h1>
+        </div>
+    </div>
+</div>
+   
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Annotation 2021-11-21 204133.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>I'm Nadil Kularathne & I'm 21 years old. I'm a passionate Graphic Designer 
+                    and a Cyber Security undergraduate. My journey in the creative world began 
+                    with a fascination for visual storytelling, which I now channel through my
+                     graphic design projects. Alongside my creative pursuits, I am delving deep 
+                     into the world of cyber security, merging technical acumen with artistic
+                    flair. Also I'm an artist. Through dance, I explore movement, rhythm, and 
+                    emotion. My dance styles include traditional, free style, hip hop etc. I am dedicated to pushing the boundaries
+                     of artistic expression and captivating audiences with my performances.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div> 
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Graphic Designing</span><br>Photo Retouching<br>Manipulation<br>Restoration
+                        <br>Colour Grading<br>Video Editing</li>
+                        <li><span>Performing Arts</span><br>Traditional dancing<br>Free style dancing<br>Singing<br></li>
+                        <li><span>Network Security</span><br>HackTheBox - Lv1<br>TryHackMe - Lv1</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Graphic designing</span><br>2 years experience in Photoshop editing</li>
+                        <li><span>Performing Arts</span><br>13 years experience in traditional dancing
+                            <br>1 year experience in free style dancing</li>
+                        <li><span>Cyber Security & Ethical Hacking</span><br>Currently no experience</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SLTC RESEARCH UNIVERSITY 2023-2028</span><br>BSc.(hons) in Cyber Security (UG)</li>
+                        <li><span>ISC2 CC</span><br>Introduction to Cyber Security</li>
+                        <li><span>TryHackMe</span><br>Lv1</li>
+                        <li><span>HackTheBox</span><br>Lv1</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------services---------------- -->
+<div id="services" >
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-photo-film"></i>
+            <h2>Photo Editing | Video Editing</h2>
+            <p>Designing posters/banner/logos</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-film"></i>
+            <h2>Arts</h2>
+            <p>Dancing items for functions/concerts</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-lock"></i>
+            <h2>Networking</h2>
+            <p>Scanning/hosting/security mangement</p>
+            <a href="#">Learn more</a>
+        </div>
+
+    </div>
+
+</div>
+<!-- -----------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/desktop wallpaper copy.jpg">              
+            </div>
+            <div class="work">
+                <img src="images/Double exposure1.png">
+            </div>
+            <div class="work">
+                <img src="images/film post,png.jpeg">
+            </div>
+            <div class="work">
+                <img src="images/logo design copy.png">
+            </div>
+            <div class="work">
+                <img src="images/social medai post 1.png">
+            </div>
+            <div class="work">
+                <img src="images/Tribal leader.png">
+            </div>
+        </div>
+        <a href="#" class="btn">See more...</a>
+    </div>
+</div>
+
+<!--------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>nadilx007@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0767240074</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_astro_joker_/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com/pahanmith"><i class="fa-brands fa-square-x-twitter"></i></i></a>
+                    <a href="https://www.linkedin.com/in/nadil-kularathne-a31497307/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/cv.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All copyrights reserved by Nadil Kularathne</p>
+    </div>
+</div>
+</div>
+<script>
+
+    var tablinks=document.getElementsByClassName('tab-links');
+    var tabcontents=document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    var typed= new Typed(".c1", {
+        strings:["Hello there...","All good?" ,"How can I help you?" ],
+        typeSpeed:60,
+        backSpeed:60,
+        backDelay:1000,
+        loop:true
+    });
+</script>
+</body>
